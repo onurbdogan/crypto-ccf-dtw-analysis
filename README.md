@@ -1,6 +1,7 @@
 # Cryptocurrency Time Series Analysis using CCF and DTW
 
-This repository contains the dataset and R scripts used for analyzing the lead-lag relationships and structural similarities between various cryptocurrencies. The methodology employs the Cross-Correlation Function (CCF) and Dynamic Time Warping (DTW) to discover market dynamics.
+This repository contains materials related to the research paper titled "Crypto Price Similarity: An Investigation Using Pearson Correlation" by Onur Batın Doğan and Fatma Sevinç Kurnaz. The study explores price correlations over 300 cryptocurrencies over four years using Pearson correlation coefficients on daily OHLCV data from Binance, examining how cross-correlations and time lags shift across distinct market phases.
+
 
 ## Project Overview
 The primary goal of this research is to identify leading and lagging cryptocurrencies within specific market cycles. By utilizing daily OHLCV data from Binance, the study calculates a custom volatility/price-change metric and systematically compares coin pairs to find correlations.
